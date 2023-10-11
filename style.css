@@ -1,0 +1,168 @@
+nav { 
+    display: inline;
+    margin-left: 900px;
+}
+
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    padding: 5%;
+    padding-right: 5%;
+    background-color:navajowhite;
+}
+
+#mo {
+    background-color: whitesmoke
+}
+
+
+.first {
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration:none;
+    color:blueviolet;
+}
+
+nav a:hover { 
+    color: red;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: firebrick;
+    font-size: 50px;
+    font-weight: bold; 
+}
+
+h2 {
+    padding-left: 30px ;
+    color :black;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+h2 + img {
+    padding-left: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+p { 
+    padding-left: 20px;
+    color: gray;
+    text-align: justify;
+    font-style: italic;
+}
+
+#dj {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+li { 
+    display: inline-block;
+    margin-left: 280px;
+}
+
+.photo {
+    width: 310px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.video {
+    display:block;
+    align-content: center;
+}
+
+.text { 
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+    color:sienna;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nom { 
+    font-weight:bolder;
+    text-align: center;
+    font-size: 15px;
+    color:navy ;
+}
+
+dd > a {
+    color:dodgerblue;
+}
+dd > a:hover { 
+    color: green;
+    text-decoration: none;
+}
+
+.lien {
+    color:darkslategrey ;
+    margin-top: 10px;   
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+audio{
+    width: 600px;
+    margin-bottom: 177px;
+}
+
+  .centerVid{
+    text-align: center;
+  }
+
+  form {
+    padding-left: 20px;
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#mail {
+    margin-left: 53px;
+}
+
+#submit {
+    background-color: beige;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+#submit:hover {
+    background-color: bisque;
+    color:green ; 
+    border: 3px solid black;
+}
+
+#top {
+    padding-left: 20px;
+}
+#top:hover {
+    color:red;
+    text-decoration: none;
+}
+.foot p{
+    color:blueviolet;
+}
+.foot {
+    display: inline-block;
+    margin: 15px;
+}

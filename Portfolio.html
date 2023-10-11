@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keinemusik</title>
     <link rel="icon" href="keinemusik Tag.jpeg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="mo">
     <header>
         <nav>
-            <a href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#DJs">DJs</a>
-            <a href="#Video">Video</a>
-            <a href="#Links">Links</a>
-            <a href="#Sign up">Join us</a>
+            <a class="first" href="#Home">Home</a>
+            <a class="first" href="#About">About</a>
+            <a class="first" href="#DJs">DJs</a>
+            <a class="first" href="#Video">Video</a>
+            <a class="first" href="#Links">Links</a>
+            <a class="first" href="#Sign up">Join us</a>
         </nav>
     </header>
     <main>
@@ -23,7 +25,7 @@
     <div>
         <section id="#Home">
             <h2> Keinemusik Label : </h2>
-            <img src="keinemusik.jpeg" alt="Keinemusik Cloud"> 
+            <img src="keinemusik.jpeg" alt="Keinemusik Cloud">
             <audio  controls>
                 <source src="Keinemusik (ME, Rampa, Adam Port)  Feeling feat. RY X.mp3" autoplay type="audio/mpeg"> 
             </audio>
@@ -52,13 +54,14 @@
             <p> Keinemusik is a network with the label as the pulse pumping centre. 
                 Driven particularly by the spirit that moves the collective behind the imprint. 
                 The spirit of refining House and Techno off the beaten path. </p> 
-               <p> Here are the group's most famous DJs : </p>
-            <ul> 
-                <li> <b>Adam port </b> </li>
-                <li> <b> &Me </b> </li>
-                <li> <b> Rampa </b> </li>
-            </ul>
-                <img src="adam port.jpeg" alt="Adam port"> <img src="&me.jpeg" alt=" &Me"> <img src="Rampa.jpeg" alt="Rampa">  
+               <p id="dj"> Here are the group's most famous DJs : </p>
+
+                <img class="photo" src="adam port.jpeg" alt="Adam port"> <img class="photo" src="&me.jpeg" alt=" &Me"> <img class="photo" src="Rampa.jpeg" alt="Rampa">  
+                <ul> 
+                    <li> <b> Adam port </b> </li>
+                    <li> <b> &Me </b> </li>
+                    <li> <b> Rampa </b> </li>
+                </ul>
                 <!-- unordred list and image source-->        
         </section>
     </div>
@@ -68,43 +71,46 @@
         <section id="Video">
             <h2> Videos of Keinemusik Party : </h2>
             <p> Here are some iconic videos from Keinemusik Party this summer : </p>
-            <center>
-            <video width="520" height="320" controls>
+            <div class="centerVid">
+            <video width="720" height="320" controls>
                 <source src="Nour El Ain – Keinemusik.mp4" type="video/mp4"/> 
             </video>
-            <dl>
-                <dt> <b>Keinemusik at Northcoast Egypt</b> </dt>
-                <dd> Nour El Ain - Amr Diab "Adam Port Remix"</dd>
-            </dl>
-            
-            <video width="520" height="320" controls>
+            </div>
+                <dl>
+                <dt class="text"> <b>Keinemusik at Northcoast Egypt</b> </dt>
+                <dd class="nom"> Nour El Ain - Amr Diab "Adam Port Remix"</dd>
+                </dl>
+                <div class="centerVid">
+            <video width="720" height="320" controls>
                 <source src="Keinemusik amr diab.mp4" type="video/mp4"/>
             </video> 
+            </div>
                 <dl>
-                    <dt> <b>Keinemusik at Agafe Morocco </b> </dt>
-                    <dd> Qamareen - Amr Diab "Adam Port Remix"</dd>
+                    <dt class="text"> <b>Keinemusik at Agafe Morocco </b> </dt>
+                    <dd class="nom"> Qamareen - Amr Diab "Adam Port Remix"</dd>
                 </dl>
-                
-            <video width="520" height="320" controls >
+                <div class="centerVid">
+            <video  width="720" height="320" controls >
                 <source src="Keinemusik - Wait for tonight.mp4" type="video/mp4"/>
             </video>
+        </div>
                 <dl>
-                    <dt> <b>Keinemusik at Mendoza Argentina</b> </dt>
-                    <dd> Wait for tonight - Jennifer Lopez "Keinemusik Remix"</dd>
+                    <dt class="text"> <b>Keinemusik at Mendoza Argentina</b> </dt>
+                    <dd class="nom"> Wait for tonight - Jennifer Lopez "Keinemusik Remix"</dd>
                 </dl>
-                
-            <video width="520" height="320" controls>     
+                <div class="centerVid">
+            <video width="720" height="320" controls>     
                 <source src="Keinemusik at Barcelona Elecronic Brunch - your voice.mp4" type="video/mp4"/>
             </video>
-            
+        </div>
                 <dl>
-                    <dt> <b>Keinemusik at Barcelona Electronic Brunch</b> </dt>
-                    <dd> Your Voice - Awen & Caiiro "Adam Port Remix"</dd>
+                    <dt class="text"> <b>Keinemusik at Barcelona Electronic Brunch</b> </dt>
+                    <dd class="nom"> Your Voice - Awen & Caiiro "Adam Port Remix"</dd>
                 </dl>
-            </center>
-                <!-- description list, paired tag ans image source -->
+            <!-- description list, paired tag ans image source -->
+
         </section>
-    </div>
+    </div>  
 <br>
 <br>
     <div>
@@ -112,16 +118,16 @@
             <h2> Here are the direct links to Keinemusik Label : </h2>
             <br>
             <dl>
-                <dt> <b> Official Web site : </b> </dt>
+                <dt class="lien"> <b> Official Web site : </b> </dt>
                 <dd> <a href="https://keinemusik.com"> https://keinemusik.com </a> </dd>
                 <br>
-                <dt> <b> Spotify </b></dt>
+                <dt class="lien"> <b> Spotify </b></dt>
                 <dd> <a href="https://open.spotify.com/intl-fr/artist/26WKgv73kRHD0gEDKD1i8j">https://open.spotify.com/intl-fr/artist/26WKgv73kRHD0gEDKD1i8j</a></dd>
                 <br>
-                <dt> <b> Youtube Channel : </b> </dt>
+                <dt class="lien"> <b> Youtube Channel : </b> </dt>
                 <dd> <a href="https://www.youtube.com/@keinemusik"> https://www.youtube.com/@keinemusik </a> </dd>
                 <br>
-                <dt> <b>Instagram account : </b> </dt>
+                <dt class="lien"> <b>Instagram account : </b> </dt>
                 <dd> <a href="https://www.instagram.com/keinemusikcrue"> https://www.instagram.com/keinemusikcrue</a> </dd>
                 </dl>
                 <!-- using exterior Links and paired tag-->
@@ -138,13 +144,13 @@
                 <input type="text" name="Full name" placeholder="">
                 <br>
                 <label> Email</label>
-                <input type="text" name="Email adress" placeholder="">
+                <input id="mail" type="text" name="Email adress" placeholder="">
                 <br>
                 <label> Password </label>
                 <input type="password" name="Password" placeholder="">
                 <br>
                 <br>
-                <input type="Submit" value="Submit"/>
+                <input id="submit" type="Submit" value="Submit"/>
             </form>
             <!-- usings input and button forms-->
         </section>
@@ -152,17 +158,27 @@
     <br>
     <br>
     <br>
-    <a href="#top"> Top of the page </a>
+    <a id="top" href="#top"> Top of the page </a>
     </main>
     <br>
     <br>
     <footer>
         <hr>
         <h2> Contact : </h2>
-        <p> <b> Laabidi Abdelwaheb</b></p>
+       <div class="foot">
+        <p> <b> Nom : </b>Laabidi Abdelwaheb</p>
+        </div>
+        <div class="foot">
         <p> <b>Email :</b> abidi.abdelwaheb@hotmail.com</p>
+        </div>
+        <div class="foot">
         <p> <b>Phone Number : </b> +216 23 186 918 </p>
+        </div>
+        <div class="foot">
         <p><b>Linkedin : </b><a href="https://www.linkedin.com/feed/">https://www.linkedin.com/feed/</a></p>
+        </div>
     </footer>
+</div>
 </body>
+
 </html>
